@@ -6,4 +6,8 @@ class circle
         @y = y
     end
 
+    def area
+        puts Math::PI * @radius * @radius
+    end 
+
 end
